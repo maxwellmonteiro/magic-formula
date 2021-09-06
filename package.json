@@ -1,0 +1,18 @@
+{
+  "name": "magic-formula",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "dev": "nodemon --inspect ./server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsdom": "^17.0.0",
+    "node-fetch": "^2.6.1",
+    "xmldom": "^0.6.0"
+  }
+}
